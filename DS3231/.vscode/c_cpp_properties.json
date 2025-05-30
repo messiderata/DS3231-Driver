@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32WBxx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32WBxx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/BSP/P-NUCLEO-WB55.Nucleo",
+                "${workspaceFolder}/Core/Src/DS3231_Driver"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/Core/Src",
+                    "${workspaceFolder}/Drivers"
+                ]
+            },
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32WB55xx"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

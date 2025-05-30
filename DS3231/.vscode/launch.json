@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Microcontroller - ST-Link",
+            "cwd": "${workspaceFolder}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "${command:cmake.launchTargetPath}",
+
+            "servertype": "stlink",
+            "device": "STM32WB55RG",
+            "interface": "swd",
+            "serialNumber": "066EFF564981774867230635",
+
+            "runToEntryPoint": "main",
+            "v1": false,
+            "showDevDebugOutput": "both",
+
+            // Optional: Use the SVD file to access peripheral registers in UI
+            "svdFile": "${workspaceFolder}/STM32WB55_CM4.svd",
+
+            // Optional: Stop on entry if you want to start before main()
+            // "preLaunchTask": "build", // only if you have a build task
+            "postRestartCommands": [
+                "monitor reset halt"
+            ],
+
+        }
+    ]
+}
