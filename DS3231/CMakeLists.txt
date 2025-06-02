@@ -50,7 +50,6 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Core/Src/DS3231_Driver/ds3231_lib.c
     Core/Src/DS3231_Driver/I2C_hal_interface.c
-    Core/Src/DS3231_Driver/ds3231_interface.c
 
 
 )
@@ -73,3 +72,10 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+
+set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
+
+add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_PROJECT_NAME}.hex
+    COMMENT "Generating HEX file"
+)   

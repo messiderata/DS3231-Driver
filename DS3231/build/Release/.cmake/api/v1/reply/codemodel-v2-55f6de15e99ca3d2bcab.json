@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DS3231::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DS3231-Release-3608dd2e3a3ab0bf35d1.json",
+					"jsonFile" : "target-DS3231-Release-d109616ac8e049b48a67.json",
 					"name" : "DS3231",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Release-7de11974730d68af05ee.json",
+					"jsonFile" : "target-STM32_Drivers-Release-51a5054f4c5e8a152550.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}
@@ -77,8 +77,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/messi/Desktop/STM32/DS3231/build/Release",
-		"source" : "/home/messi/Desktop/STM32/DS3231"
+		"build" : "/home/messi/Desktop/DS3231-Driver/DS3231/build/Release",
+		"source" : "/home/messi/Desktop/DS3231-Driver/DS3231"
 	},
 	"version" : 
 	{

@@ -129,63 +129,24 @@ int main(void)
   }
   printf("RTC Module Detected!\r\n");
 
-  // // bool status = DS3231_Init();
-  // uint8_t hours = 12;
-  // uint8_t bcdhours = decToBcd(hours);
-  // // /* Infinite loop */
-  // HAL_I2C_Mem_Write(&hi2c3, 0x68 << 1, 0x02, I2C_MEMADD_SIZE_8BIT, &bcdhours, 1, 2);
-
-  // uint8_t mins = 56;
-  // uint8_t bcdmins = decToBcd(mins);
-  // HAL_I2C_Mem_Write(&hi2c3, 0x68 << 1, 0x01, I2C_MEMADD_SIZE_8BIT, &bcdmins, 1, 2);
-
-  uint8_t data[7];
-  data[0] = 0x30; // Seconds = 30
-  data[1] = 0x45; // Minutes = 45
-
-  // Hours = 09 AM in 12-hour format
-  // Bit 6 = 1 (12-hour mode)
-  // Bit 5 = 0 (AM)
-  // Bits 4-0 = 0x09
-  data[2] = 0x63; // 0b01100001
-
-  data[3] = 0x01; // Day of week
-  data[4] = 0x01; // Date
-  data[5] = 0x01; // Month
-  data[6] = 0x23; // Year = 2023
-
   uint8_t input;
-  uint8_t hour_reg;
+  // uint8_t hours = 0x72;
+  input = decToBcd(19);
 
-  input = decToBcd(23);
-
-  HAL_I2C_Write(&hi2c3, 0x68 << 1, 0x02, &input, 1);
-
-  // uint8_t hour_reg;
-
-  HAL_I2C_Read(&hi2c3, 0x68 << 1, 0x02, &hour_reg, 1);
-
-  hour_reg = bcdToDec(hour_reg);
-
-  printf("%0d\r\n", hour_reg);
-
-  
+  // HAL_I2C_Write(&hi2c3, 0x68 << 1, 0x02, &input, 1);
   Date_now = getTime;
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
     Date_now(&now);
 
-    printf("==============================\r\n");
-    printf("|         CURRENT TIME       |\r\n");
-    printf("==============================\r\n");
+    printf("%02d:%02d:%02d, %s\r\n", now.getHours, now.getMinutes, now.getSeconds, now.getDay);
 
-    printf("Time: %02d:%02d:%02d\r\n", now.getHours, now.getMinutes, now.getSeconds);
-
-    printf("\r\n");
 
     HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

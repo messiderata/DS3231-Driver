@@ -8,10 +8,10 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cmake",
-			"cpack" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cpack",
-			"ctest" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/ctest",
-			"root" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28"
+			"cmake" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cmake",
+			"cpack" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cpack",
+			"ctest" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/ctest",
+			"root" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28"
 		},
 		"version" : 
 		{
@@ -26,7 +26,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-40761903bc69551a9b21.json",
+			"jsonFile" : "codemodel-v2-55f6de15e99ca3d2bcab.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-1bb769cf2b10d3272be8.json",
+			"jsonFile" : "cache-v2-308fd0c0e6ce114fe82b.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-eaf01917b82a0b729ff1.json",
+			"jsonFile" : "cmakeFiles-v1-956b01051198dca7663f.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -53,7 +53,7 @@
 			}
 		},
 		{
-			"jsonFile" : "toolchains-v1-952f88fdd28d9082e431.json",
+			"jsonFile" : "toolchains-v1-f5f25044c17d0d8a1602.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
@@ -90,7 +90,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-1bb769cf2b10d3272be8.json",
+						"jsonFile" : "cache-v2-308fd0c0e6ce114fe82b.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -99,7 +99,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-40761903bc69551a9b21.json",
+						"jsonFile" : "codemodel-v2-55f6de15e99ca3d2bcab.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -108,7 +108,7 @@
 						}
 					},
 					{
-						"jsonFile" : "toolchains-v1-952f88fdd28d9082e431.json",
+						"jsonFile" : "toolchains-v1-f5f25044c17d0d8a1602.json",
 						"kind" : "toolchains",
 						"version" : 
 						{
@@ -117,7 +117,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-eaf01917b82a0b729ff1.json",
+						"jsonFile" : "cmakeFiles-v1-956b01051198dca7663f.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

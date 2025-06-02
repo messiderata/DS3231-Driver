@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/messi/Desktop/STM32/DS3231/build/Release/
+cmake_ninja_workdir = /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/
 # =============================================================================
 # Object build statements for EXECUTABLE target DS3231
 
@@ -49,75 +49,67 @@ cmake_ninja_workdir = /home/messi/Desktop/STM32/DS3231/build/Release/
 
 build cmake_object_order_depends_target_DS3231: phony || cmake_object_order_depends_target_STM32_Drivers
 
-build CMakeFiles/DS3231.dir/Core/Src/main.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/main.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/main.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/main.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/main.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src
 
-build CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_it.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/stm32wbxx_it.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_it.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/stm32wbxx_it.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_it.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src
 
-build CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_hal_msp.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/stm32wbxx_hal_msp.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_hal_msp.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/stm32wbxx_hal_msp.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_hal_msp.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src
 
-build CMakeFiles/DS3231.dir/Core/Src/sysmem.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/sysmem.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/sysmem.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/sysmem.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/sysmem.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src
 
-build CMakeFiles/DS3231.dir/Core/Src/syscalls.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/syscalls.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/syscalls.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/syscalls.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/syscalls.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src
 
-build CMakeFiles/DS3231.dir/startup_stm32wb55xx_cm4.s.obj: ASM_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/startup_stm32wb55xx_cm4.s || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/startup_stm32wb55xx_cm4.s.obj: ASM_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/startup_stm32wb55xx_cm4.s || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/startup_stm32wb55xx_cm4.s.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -O3 -DNDEBUG
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir
 
-build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_lib.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver/ds3231_lib.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_lib.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver/ds3231_lib.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_lib.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver
 
-build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/I2C_hal_interface.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver/I2C_hal_interface.c || cmake_object_order_depends_target_DS3231
+build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/I2C_hal_interface.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver/I2C_hal_interface.c || cmake_object_order_depends_target_DS3231
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/I2C_hal_interface.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles/DS3231.dir
-  OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver
-
-build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_interface.c.obj: C_COMPILER__DS3231_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver/ds3231_interface.c || cmake_object_order_depends_target_DS3231
-  DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_interface.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/DS3231.dir
   OBJECT_FILE_DIR = CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver
 
@@ -129,10 +121,10 @@ build CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_interface.c.obj: C_COM
 #############################################
 # Link the executable DS3231.elf
 
-build DS3231.elf: C_EXECUTABLE_LINKER__DS3231_Release cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbxx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c.obj CMakeFiles/DS3231.dir/Core/Src/main.c.obj CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_it.c.obj CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_hal_msp.c.obj CMakeFiles/DS3231.dir/Core/Src/sysmem.c.obj CMakeFiles/DS3231.dir/Core/Src/syscalls.c.obj CMakeFiles/DS3231.dir/startup_stm32wb55xx_cm4.s.obj CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_lib.c.obj CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/I2C_hal_interface.c.obj CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_interface.c.obj || cmake/stm32cubemx/STM32_Drivers
+build DS3231.elf: C_EXECUTABLE_LINKER__DS3231_Release cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbxx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c.obj CMakeFiles/DS3231.dir/Core/Src/main.c.obj CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_it.c.obj CMakeFiles/DS3231.dir/Core/Src/stm32wbxx_hal_msp.c.obj CMakeFiles/DS3231.dir/Core/Src/sysmem.c.obj CMakeFiles/DS3231.dir/Core/Src/syscalls.c.obj CMakeFiles/DS3231.dir/startup_stm32wb55xx_cm4.s.obj CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/ds3231_lib.c.obj CMakeFiles/DS3231.dir/Core/Src/DS3231_Driver/I2C_hal_interface.c.obj || cmake/stm32cubemx/STM32_Drivers
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0
   OBJECT_DIR = CMakeFiles/DS3231.dir
-  POST_BUILD = :
+  POST_BUILD = cd /home/messi/Desktop/DS3231-Driver/DS3231/build/Release && arm-none-eabi-objcopy -O ihex /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/DS3231.elf /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/DS3231.hex
   PRE_LINK = :
   TARGET_FILE = DS3231.elf
   TARGET_PDB = DS3231.elf.dbg
@@ -142,7 +134,7 @@ build DS3231.elf: C_EXECUTABLE_LINKER__DS3231_Release cmake/stm32cubemx/CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/messi/Desktop/STM32/DS3231/build/Release && /home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/ccmake -S/home/messi/Desktop/STM32/DS3231 -B/home/messi/Desktop/STM32/DS3231/build/Release
+  COMMAND = cd /home/messi/Desktop/DS3231-Driver/DS3231/build/Release && /home/messi/st/stm32cubeclt_1.18.0/CMake/bin/ccmake -S/home/messi/Desktop/DS3231-Driver/DS3231 -B/home/messi/Desktop/DS3231-Driver/DS3231/build/Release
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -154,7 +146,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/messi/Desktop/STM32/DS3231/build/Release && /home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cmake --regenerate-during-build -S/home/messi/Desktop/STM32/DS3231 -B/home/messi/Desktop/STM32/DS3231/build/Release
+  COMMAND = cd /home/messi/Desktop/DS3231-Driver/DS3231/build/Release && /home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cmake --regenerate-during-build -S/home/messi/Desktop/DS3231-Driver/DS3231 -B/home/messi/Desktop/DS3231-Driver/DS3231/build/Release
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -163,7 +155,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/messi/Desktop/STM32/DS3231/CMakeLists.txt
+# /home/messi/Desktop/DS3231-Driver/DS3231/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -175,179 +167,179 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_STM32_Drivers: phony || cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbxx.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Core/Src/system_stm32wbxx.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbxx.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/system_stm32wbxx.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wbxx.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_i2c_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_usart_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WBxx_HAL_Driver/Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c.obj: C_COMPILER__STM32_Drivers_unscanned_Release /home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c || cmake_object_order_depends_target_STM32_Drivers
   DEFINES = -DSTM32WB55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
   DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c.obj.d
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -I/home/messi/Desktop/STM32/DS3231/Core/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include
+  INCLUDES = -I/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include -I/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/P-NUCLEO-WB55.Nucleo
 
@@ -363,7 +355,7 @@ build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_
 # Utility command for edit_cache
 
 build cmake/stm32cubemx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx && /home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/ccmake -S/home/messi/Desktop/STM32/DS3231 -B/home/messi/Desktop/STM32/DS3231/build/Release
+  COMMAND = cd /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx && /home/messi/st/stm32cubeclt_1.18.0/CMake/bin/ccmake -S/home/messi/Desktop/DS3231-Driver/DS3231 -B/home/messi/Desktop/DS3231-Driver/DS3231/build/Release
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -375,7 +367,7 @@ build cmake/stm32cubemx/edit_cache: phony cmake/stm32cubemx/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build cmake/stm32cubemx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx && /home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cmake --regenerate-during-build -S/home/messi/Desktop/STM32/DS3231 -B/home/messi/Desktop/STM32/DS3231/build/Release
+  COMMAND = cd /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx && /home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cmake --regenerate-during-build -S/home/messi/Desktop/DS3231-Driver/DS3231 -B/home/messi/Desktop/DS3231-Driver/DS3231/build/Release
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -395,14 +387,14 @@ build STM32_Drivers: phony cmake/stm32cubemx/STM32_Drivers
 # =============================================================================
 
 #############################################
-# Folder: /home/messi/Desktop/STM32/DS3231/build/Release
+# Folder: /home/messi/Desktop/DS3231-Driver/DS3231/build/Release
 
 build all: phony DS3231.elf cmake/stm32cubemx/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx
+# Folder: /home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx
 
 build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 
@@ -413,14 +405,14 @@ build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/messi/Desktop/STM32/DS3231/CMakeLists.txt /home/messi/Desktop/STM32/DS3231/cmake/gcc-arm-none-eabi.cmake /home/messi/Desktop/STM32/DS3231/cmake/stm32cubemx/CMakeLists.txt /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/messi/Desktop/DS3231-Driver/DS3231/CMakeLists.txt /home/messi/Desktop/DS3231-Driver/DS3231/cmake/gcc-arm-none-eabi.cmake /home/messi/Desktop/DS3231-Driver/DS3231/cmake/stm32cubemx/CMakeLists.txt /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/messi/Desktop/STM32/DS3231/CMakeLists.txt /home/messi/Desktop/STM32/DS3231/cmake/gcc-arm-none-eabi.cmake /home/messi/Desktop/STM32/DS3231/cmake/stm32cubemx/CMakeLists.txt /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /home/messi/Desktop/DS3231-Driver/DS3231/CMakeLists.txt /home/messi/Desktop/DS3231-Driver/DS3231/cmake/gcc-arm-none-eabi.cmake /home/messi/Desktop/DS3231-Driver/DS3231/cmake/stm32cubemx/CMakeLists.txt /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

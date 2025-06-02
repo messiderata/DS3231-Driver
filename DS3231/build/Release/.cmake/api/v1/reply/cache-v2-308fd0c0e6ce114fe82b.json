@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-addr2line"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-ar"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-ar"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_RANLIB",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_WORKS",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/Desktop/STM32/DS3231/build/Release"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231/build/Release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -227,7 +227,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cmake"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -239,7 +239,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/cpack"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -251,7 +251,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/ctest"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -267,7 +267,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -283,7 +283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -379,7 +379,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/bin/ccmake"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/messi/Desktop/STM32/DS3231/build/Release/CMakeFiles/pkgRedirects"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/Desktop/STM32/DS3231"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/Ninja/bin/ninja"
+			"value" : "/usr/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -803,7 +803,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-nm"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-objdump"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-ranlib"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-readelf"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/CMake/share/cmake-3.28"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/CMake/share/cmake-3.28"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-strip"
+			"value" : "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/messi/Desktop/STM32/DS3231/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1199,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/messi/Desktop/STM32/DS3231/build/Release"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231/build/Release"
 		},
 		{
 			"name" : "DS3231_IS_TOP_LEVEL",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/messi/Desktop/STM32/DS3231"
+			"value" : "/home/messi/Desktop/DS3231-Driver/DS3231"
 		}
 	],
 	"kind" : "cache",

@@ -1,6 +1,6 @@
-/home/messi/Desktop/STM32/DS3231/build/Release/CMakeFiles/DS3231.dir
-/home/messi/Desktop/STM32/DS3231/build/Release/CMakeFiles/edit_cache.dir
-/home/messi/Desktop/STM32/DS3231/build/Release/CMakeFiles/rebuild_cache.dir
-/home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-/home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/home/messi/Desktop/STM32/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/CMakeFiles/DS3231.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/CMakeFiles/edit_cache.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/CMakeFiles/rebuild_cache.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/messi/Desktop/DS3231-Driver/DS3231/build/Release/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

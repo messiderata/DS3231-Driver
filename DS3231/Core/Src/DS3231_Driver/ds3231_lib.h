@@ -8,27 +8,39 @@
 #include <stdbool.h>
 
 #define DS3231_I2C_ADDRESS 0x68
-#define DS3231_TIME_REG 0x00
+#define DS3231_SEC_REG 0x00
+#define DS3231_MIN_REG 0x01
+#define DS3231_HOUR_REG 0x02
+#define DS3231_DAY_REG 0x03
+#define DS3231_MONTH_REG 0x04
 #define DS3231_REG_1 0x07
 #define DS3231_REG_2 0x0B
 #define DS3231_REG_CONTROL 0x0E
 #define DS3231_REG_STATUS 0x0F
 
-typedef union
+/* data */
+typedef struct
 {
-    /* data */
-    struct
-    {
-        uint8_t getSeconds;
-        uint8_t getMinutes;
-        uint8_t getHours;
-        uint8_t getDay;   // arr[3]
-        uint8_t getDate;  // arr[4]
-        uint8_t getMonth; // arr[5]
-        uint8_t getYear;  // arr[6]
-    };  
-    uint8_t arr[7];
+    uint8_t getSeconds;
+    uint8_t getMinutes;
+    uint8_t getHours;
+    const char *getDay;
+    const char *getDate;
+    uint8_t getMonth;
+    uint8_t getYear;
 } time_now_t;
+
+typedef enum
+{
+    Sunday = 1,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+
+} Day_t;
 
 /**
  * @brief
@@ -51,6 +63,13 @@ bool isD3231Connected(DS3231_Handle_t *handle);
  * @return uint8_t
  */
 uint8_t bcdToDec(uint8_t val);
+
+/**
+ * @brief 
+ * 
+ * @param val 
+ * @return uint8_t 
+ */
 uint8_t decToBcd(uint8_t val);
 
 /**
@@ -61,9 +80,79 @@ uint8_t decToBcd(uint8_t val);
  */
 void DS3231_AttachInterface(DS3231_Handle_t *handle, I2C_HandleTypeDef *i2c_instance);
 
+
+/**
+ * @brief Get the Time object
+ * 
+ * @param time 
+ */
 void getTime(time_now_t *time);
 
 // In ds3231_lib.h or any header
 extern void (*Date_now)(time_now_t *time);
+
+/**
+ * @brief 
+ * 
+ * @param regAddress 
+ * @return uint8_t 
+ */
+uint8_t DS3231GetRegByte(uint8_t regAddress);
+
+/**
+ * @brief 
+ * 
+ * @param regAddress 
+ * @param val 
+ * @return uint8_t 
+ */
+uint8_t DS3231SetRegByte(uint8_t regAddress, uint8_t val);
+
+
+/**
+ * @brief Set the Seconds object
+ * 
+ * @param sec 
+ */
+void setSeconds(uint8_t sec);
+
+uint8_t getSeconds(void);
+
+/**
+ * @brief Get the Minutes object
+ * 
+ * @return uint8_t 
+ */
+uint8_t getMinutes(void);
+
+/**
+ * @brief Get the Hours object
+ * 
+ * @return uint8_t 
+ */
+uint8_t getHours(void);
+/**
+ * @brief Get the Day object
+ * 
+ * @return uint8_t 
+ */
+uint8_t getDay(void);
+
+
+/**
+ * @brief Get the Formatted Day object
+ * 
+ * @return const char* 
+ */
+const char *getFormattedDay();
+
+
+/**
+ * @brief 
+ * 
+ * @param currentDay 
+ * @return const char* 
+ */
+const char *dayToString(Day_t currentDay);
 
 #endif // __DS3231_LIB__

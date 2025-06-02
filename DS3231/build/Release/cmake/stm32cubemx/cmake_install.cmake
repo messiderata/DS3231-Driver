@@ -1,4 +1,4 @@
-# Install script for directory: /home/messi/Desktop/STM32/DS3231/cmake/stm32cubemx
+# Install script for directory: /home/messi/Desktop/DS3231-Driver/DS3231/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/messi/st/stm32cubeclt_1.18.0_2/GNU-tools-for-STM32/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/home/messi/st/stm32cubeclt_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-objdump")
 endif()
 

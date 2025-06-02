@@ -43,7 +43,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 59,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -88,31 +88,31 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Core/Inc"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -132,8 +132,7 @@
 				3,
 				4,
 				6,
-				7,
-				8
+				7
 			]
 		},
 		{
@@ -162,31 +161,31 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Core/Src/DS3231_Driver"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Core/Src/DS3231_Driver"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Core/Inc"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/BSP/P-NUCLEO-WB55.Nucleo"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Device/ST/STM32WBxx/Include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/messi/Desktop/STM32/DS3231/Drivers/CMSIS/Include"
+					"path" : "/home/messi/Desktop/DS3231-Driver/DS3231/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -238,8 +237,7 @@
 				3,
 				4,
 				6,
-				7,
-				8
+				7
 			]
 		},
 		{
@@ -253,6 +251,7 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
+				8,
 				9,
 				10,
 				11,
@@ -273,8 +272,7 @@
 				26,
 				27,
 				28,
-				29,
-				30
+				29
 			]
 		}
 	],
@@ -326,12 +324,6 @@
 			"backtrace" : 6,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/DS3231_Driver/I2C_hal_interface.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 6,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/DS3231_Driver/ds3231_interface.c",
 			"sourceGroupIndex" : 0
 		},
 		{
