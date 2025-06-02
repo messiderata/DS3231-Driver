@@ -57,6 +57,7 @@ void PeriphCommonClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C3_Init(void);
 static void MX_BSP(void);
+void scan_I2C_bus();
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -70,21 +71,6 @@ static void MX_BSP(void);
  * @brief  The application entry point.
  * @retval int
  */
-
-void scan_I2C_bus()
-{
-  printf("Scanning I2C bus...\r\n");
-
-  for (uint8_t addr = 1; addr < 127; addr++)
-  {
-    if (HAL_I2C_IsDeviceReady(&hi2c3, (addr << 1), 1, HAL_MAX_DELAY) == HAL_OK)
-    {
-      printf("Device found at 0x%02X\r\n", addr);
-    }
-  }
-
-  printf("Scan complete.\r\n");
-}
 
 int main(void)
 {
@@ -129,21 +115,17 @@ int main(void)
   }
   printf("RTC Module Detected!\r\n");
 
-  uint8_t input;
-  // uint8_t hours = 0x72;
-  input = decToBcd(19);
-
-  // HAL_I2C_Write(&hi2c3, 0x68 << 1, 0x02, &input, 1);
-  Date_now = getTime;
+  // setTime(23, 45, 12);
 
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
+    Date_now = getTime;
+
     Date_now(&now);
 
-    printf("%02d:%02d:%02d, %s\r\n", now.getHours, now.getMinutes, now.getSeconds, now.getDay);
-
+    printf("%02d\r\n", now.getSeconds);
 
     HAL_Delay(1000);
 
@@ -235,7 +217,7 @@ static void MX_I2C3_Init(void)
 
   /* USER CODE END I2C3_Init 1 */
   hi2c3.Instance = I2C3;
-  hi2c3.Init.Timing = 0x0060112F;
+  hi2c3.Init.Timing = 0x00B07CB4;
   hi2c3.Init.OwnAddress1 = 0;
   hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -336,7 +318,20 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void scan_I2C_bus()
+{
+  printf("Scanning I2C bus...\r\n");
 
+  for (uint8_t addr = 1; addr < 127; addr++)
+  {
+    if (HAL_I2C_IsDeviceReady(&hi2c3, (addr << 1), 1, HAL_MAX_DELAY) == HAL_OK)
+    {
+      printf("Device found at 0x%02X\r\n", addr);
+    }
+  }
+
+  printf("Scan complete.\r\n");
+}
 /* USER CODE END 4 */
 
 /**
