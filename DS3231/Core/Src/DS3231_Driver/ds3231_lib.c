@@ -3,7 +3,6 @@
 
 // Declare the rtc handle globally
 DS3231_Handle_t rtc;
-// Day_t currentDay;
 
 // In ds3231_lib.c or main.c
 void (*Date_now)(time_now_t *time) = NULL;
@@ -17,7 +16,7 @@ void DS3231_AttachInterface(DS3231_Handle_t *handle, I2C_HandleTypeDef *i2c_inst
     handle->I2CWrite = I2C_DS3231_Write;
 }
 
-bool DS3231_Init(I2C_HandleTypeDef *i2c_instance)
+bool    DS3231_Init(I2C_HandleTypeDef *i2c_instance)
 {
 
     DS3231_AttachInterface(&rtc, i2c_instance);
@@ -69,6 +68,9 @@ void getTime(time_now_t *time)
     time->getMinutes = getMinutes();
     time->getHours = getHours();
     time->getDay = getFormattedDay();
+    time->getDate = getDate();
+    time->getMonth = getMonth();
+    time->getYear = getYear();
 }
 
 uint8_t DS3231GetRegByte(uint8_t regAddress)
@@ -111,9 +113,43 @@ uint8_t getDay(void)
     return bcdToDec(DS3231GetRegByte(DS3231_DAY_REG));
 }
 
+// TODO
+uint8_t getDate(void)
+{
+    return bcdToDec(DS3231GetRegByte(DS3231_DATE_REG));
+}
+// TODO
+
+uint8_t getMonth(void)
+{
+    return bcdToDec(DS3231GetRegByte(DS3231_MONTH_REG));
+}
+
+uint8_t getYear(void)
+{
+    return bcdToDec(DS3231GetRegByte(DS3231_YEAR_REG));
+}
+
 void setSeconds(uint8_t sec)
 {
     DS3231SetRegByte(DS3231_SEC_REG, decToBcd(sec));
+}
+
+void setMinutes(uint8_t min)
+{
+    DS3231SetRegByte(DS3231_MIN_REG, decToBcd(min));
+}
+
+void setHours(uint8_t hr)
+{
+    DS3231SetRegByte(DS3231_HOUR_REG, decToBcd(hr));
+}
+
+void setTime(uint8_t hour, uint8_t minute, uint8_t second)
+{
+    setHours(hour);
+    setMinutes(minute);
+    setSeconds(second);
 }
 
 const char *getFormattedDay()
@@ -155,5 +191,4 @@ const char *dayToString(Day_t currentDay)
     default:
         break;
     }
-
 }

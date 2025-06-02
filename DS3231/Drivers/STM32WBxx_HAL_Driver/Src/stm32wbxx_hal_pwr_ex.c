@@ -616,10 +616,7 @@ uint32_t HAL_PWREx_GetBORConfig(void)
   * @retval None
   */
 void HAL_PWREx_HoldCore(uint32_t CPU)
-
 {
-  (void)CPU;
-
   /* Check the parameters */
   assert_param(IS_PWR_CORE_HOLD_RELEASE(CPU));
 
@@ -635,8 +632,6 @@ void HAL_PWREx_HoldCore(uint32_t CPU)
   */
 void HAL_PWREx_ReleaseCore(uint32_t CPU)
 {
-
-  (void)CPU;
   /* Check the parameters */
   assert_param(IS_PWR_CORE_HOLD_RELEASE(CPU));
 

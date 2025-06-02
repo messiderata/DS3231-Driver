@@ -27,7 +27,7 @@ int HAL_I2C_Write(void *instance, uint8_t devAddress, uint8_t reg_address, uint8
 int I2C_DS3231_Write(void *instance, uint8_t devAddress, uint8_t *reg_address, uint8_t len)
 {
 
-    if (HAL_I2C_Master_Transmit((I2C_HandleTypeDef *)instance, devAddress, reg_address, len, HAL_MAX_DELAY) == HAL_OK)
+    if (HAL_I2C_Master_Transmit((I2C_HandleTypeDef *)instance, devAddress, reg_address, len, 100) == HAL_OK)
     {
 
         return 1;
@@ -39,7 +39,7 @@ int I2C_DS3231_Write(void *instance, uint8_t devAddress, uint8_t *reg_address, u
 int I2C_DS3231_Read(void *instance, uint8_t devAddress, uint8_t *buffer, uint8_t len)
 {
 
-    if (HAL_I2C_Master_Receive((I2C_HandleTypeDef *)instance, devAddress, buffer, len, HAL_MAX_DELAY) == HAL_OK)
+    if (HAL_I2C_Master_Receive((I2C_HandleTypeDef *)instance, devAddress, buffer, len, 100) == HAL_OK)
     {
 
         return 1;
